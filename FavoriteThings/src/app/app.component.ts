@@ -18,14 +18,8 @@ export class AppComponent {
     console.log('You selected update');
   }
 
-  setNumber(action: string): void {
-    if (action === '+') {
-      this.favoriteNumber += 1;
-    } else if (action === '-') {
-      this.favoriteNumber -= 1;
-    } else if (action === '0') {
-      this.favoriteNumber = 0;
-    }
+  setNumber(newNumber: number): void {
+    this.favoriteNumber = newNumber;
   }
 }
 
