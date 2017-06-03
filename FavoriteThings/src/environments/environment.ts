@@ -6,11 +6,11 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "AIzaSyCA_NIdg0xDkjIbCXZ7vvB8cqQ-B2w3e3o",
-    authDomain: "moorect-default.firebaseapp.com",
-    databaseURL: "https://moorect-default.firebaseio.com",
-    projectId: "moorect-default",
-    storageBucket: "moorect-default.appspot.com",
-    messagingSenderId: "18531524097"
+    apiKey: 'AIzaSyCA_NIdg0xDkjIbCXZ7vvB8cqQ-B2w3e3o',
+    authDomain: 'moorect-default.firebaseapp.com',
+    databaseURL: 'https://moorect-default.firebaseio.com',
+    projectId: 'moorect-default',
+    storageBucket: 'moorect-default.appspot.com',
+    messagingSenderId: '18531524097'
   }
 };

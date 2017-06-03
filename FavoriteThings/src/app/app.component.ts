@@ -31,7 +31,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   setColor(selectedColor: string): void {
-    firebase.database().ref().child("color").set(selectedColor);
+    firebase.database().ref().child('color').set(selectedColor);
   }
 
   // updateColor(): void {
