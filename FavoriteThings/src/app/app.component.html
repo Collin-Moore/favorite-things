@@ -1,7 +1,19 @@
 <!--The whole content below can be removed with the new code.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!!
-  </h1>
-</div>
+<h1>
+  {{title}}
+</h1>
+<hr>
+<h2>Favorite Color</h2>
+<div id="box" [style.backgroundColor]="favoriteColor">{{favoriteColor}}</div>
+<button type="button" (click)="setColor('blue');">Blue</button>
+<button type="button" (click)="setColor('green');">Green</button>
+<button type="button" (click)="setColor('red');">Red</button>
+<button type="button" (click)="setColor('purple');">Purple</button>
+<button type="button" (click)="setColor('#800000');">Rose Red</button>
+<br>
+<button type="button" (click)="updateColor();">Update</button>
+<hr>
+<h2>Favorite Number</h2>
+
+<hr>
 
